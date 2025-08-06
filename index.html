@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akmal Nimaladasa | Portfolio</title>
-  <meta name="description" content="Akmal Nimaladasa – AI-powered web developer portfolio. View projects, CV, and contact links.">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Akmal Nimaladasa – AI-Powered Web Developer</title>
+  <meta name="description" content="Akmal Nimaladasa portfolio – luxury red and matte black theme, projects, contact"/>
+  <link rel="icon" href="favicon.ico"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h1>Akmal Nimaladasa</h1>
+    <p class="subtitle">AI‑Powered Web Developer • Sri Lanka</p>
+    <a href="https://wa.me/94775120885" class="btn">Contact Me on WhatsApp</a>
+  </section>
 
-  <!-- Header -->
-  <header>
-    <h1>Akmal Nimaladasa</h1>
-    <p>AI-Powered Web Developer • Computer Science Student • Content Creator</p>
-  </header>
-
-  <!-- About Section -->
-  <section class="about">
+  <!-- About Me -->
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <img src="profile.jpg" alt="Akmal Nimaladasa" class="profile-pic" />
-    <p>
-      I’m an AI-powered web developer from Sri Lanka who builds clean, responsive websites using tools like ChatGPT and GitHub. I specialize in personal websites, mini web apps, and landing pages — created using HTML, CSS, and JavaScript without manual coding.
-    </p>
-    <p>
-      📄 <a href="akmal-cv.pdf" download>Download My CV</a>
-    </p>
+    <img src="profile.jpg" alt="Akmal Nimaladasa" class="profile-pic"/>
+    <p>I build clean, responsive, AI‑assisted websites using HTML, CSS & JavaScript. Specialized in personal sites, mini web apps, landing pages—all handcrafted for performance and elegance.</p>
+    <a href="akmal-cv.pdf" download class="btn-outline">Download My CV</a>
   </section>
 
-  <!-- Skills Section -->
-  <section class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>🌐 HTML & CSS (AI-assisted)</li>
-      <li>💻 JavaScript (Prompt-based)</li>
-      <li>🎨 Responsive UI Design</li>
-      <li>📁 GitHub & GitHub Pages</li>
-      <li>🎥 Content Creation</li>
-    </ul>
-  </section>
-
-  <!-- Projects Section -->
-  <section class="projects">
-    <h2>Projects</h2>
-
-    <div class="project-card">
-      <h3>Gratitude Journal Web App</h3>
-      <img src="gratitude-screenshot.png" alt="Gratitude Journal Screenshot" />
-      <p>A journaling app where users can save gratitude entries locally. Built with AI-powered HTML, CSS, and JavaScript.</p>
-      <a href="https://akmalnimaladasa.github.io/first-gratitude-journal/" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
-      <a href="https://github.com/akmalnimaladasa/first-gratitude-journal" target="_blank" rel="noopener noreferrer">📁 Source Code</a>
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Services Offered</h2>
+    <div class="cards">
+      <div class="card"><div class="icon">🤖</div><h3>AI Website Dev</h3></div>
+      <div class="card"><div class="icon">💬</div><h3>Chatbot Integration</h3></div>
+      <div class="card"><div class="icon">📱</div><h3>Mobile Optimization</h3></div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact">
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Portfolio</h2>
+    <div class="project-card">
+      <img src="gratitude-screenshot.png" alt="Gratitude Journal"/>
+      <div class="info">
+        <h3>Gratitude Journal</h3>
+        <p>A journaling app using HTML, CSS & JS; entries saved locally.</p>
+        <p class="tech">Technologies: HTML, CSS, JavaScript</p>
+        <div class="links">
+          <a href="#" target="_blank">Live</a>
+          <a href="#" target="_blank">Source</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>“Akmal delivered a sleek, modern site on time—100% satisfied.”</blockquote>
+    <blockquote>“Outstanding quality and prompt communication.”</blockquote>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
     <h2>Contact</h2>
-    <ul>
-      <li>📧 Email: <a href="mailto:akmal.yasaz@gmail.com">akmal.yasaz@gmail.com</a></li>
-      <li>🐙 GitHub: <a href="https://github.com/akmalnimaladasa" target="_blank" rel="noopener noreferrer">github.com/akmalnimaladasa</a></li>
-      <li>📸 Instagram: <a href="https://instagram.com/muhammad.akmal.nim" target="_blank" rel="noopener noreferrer">@muhammad.akmal.nim</a></li>
-      <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/akmal-nimaladasa" target="_blank" rel="noopener noreferrer">linkedin.com/in/akmal-nimaladasa</a></li>
-    </ul>
+    <a href="https://wa.me/94775120885" class="btn">Send WhatsApp Message</a>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Akmal Nimaladasa • All rights reserved.</p>
+    <p>akmal.yasaz@gmail.com • +94‑77 512 0885</p>
+    <p>© 2025 Akmal Nimaladasa.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
